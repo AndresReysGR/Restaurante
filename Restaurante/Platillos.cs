@@ -9,7 +9,7 @@ namespace Restaurante
     class Platillos
     {
         public string Nombre { get; set; }
-        public string Identifador { get; set; }
+        public string Identificador { get; set; }
         public string Descripcion { get; set; }
         public int _precio;
         public List<Ingredientes> Ingredientes;
@@ -35,14 +35,14 @@ namespace Restaurante
         public Platillos()
         {
             Nombre = "No Asignado";
-            Identifador = "No Asignado";
+            Identificador = "No Asignado";
             Descripcion = "No Asignado";
             Ingredientes = new List<Ingredientes>();
         }
         public Platillos(string nombre)
         {
             Nombre = nombre;
-            Identifador = "No Asignado";
+            Identificador = "No Asignado";
             Descripcion = "No Asignado";
             Ingredientes = new List<Ingredientes>();
 
